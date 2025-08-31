@@ -1,0 +1,48 @@
+/* Import a modern font from Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+/* Reset the page */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "inter" sans-serif;
+}
+
+.outer-container {
+  width: 100%;
+  height: auto;
+  padding-top: 7rem;
+  padding-bottom: 9rem;
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  width: 35%;
+  height: auto;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  padding: 4rem 3rem;
+}
+
+.revenue-and-percent-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.revenue-container {
+  width: 30%;
+  height: auto;
+  font-family: "inters" sans-serif;
+}
